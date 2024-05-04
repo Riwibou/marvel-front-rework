@@ -43,7 +43,7 @@ const Characters = () => {
       <p className="flex w-full justify-center my-10 text-[40px] font-bold">Marvel Chracters</p>
       <div className="flex flex-wrap justify-center gap-3 w-full p-10 pt-0">
         {characters.map((character) => (
-          <div key={character._id} className="mt-1 flex flex-col bg-white w-[30%] card-border transition-transform duration-300 ease-in-out transform hover:scale-105 hover:z-[99999]">
+          <div key={character._id} className="mt-1 flex flex-col bg-gray-200 w-[30%] card-border transition-transform duration-300 ease-in-out transform hover:scale-105 hover:z-[99999]">
             <Link to={`/comics/${character._id}?name=${character.name}`}>
               <div className="character-info">
                   <div className="w-full h-[250px] overflow-hidden">
